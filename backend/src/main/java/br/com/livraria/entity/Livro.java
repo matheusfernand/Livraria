@@ -24,6 +24,8 @@ public class Livro {
 
     private String imagem;
 
+    private int quantidadeEmEstoque;
+
     public Integer getId() {
         return id;
     }
@@ -78,5 +80,13 @@ public class Livro {
 
     public void setAnoDePublicacao(int anoDePublicacao) {
         this.anoDePublicacao = anoDePublicacao;
+    }
+
+    public int getQuantidadeEmEstoque() {
+        return quantidadeEmEstoque;
+    }
+
+    public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 }
